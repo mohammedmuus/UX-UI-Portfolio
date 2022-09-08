@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display:
+  margin: auto;
+  overflow-x: hidden;
+  font-family: Comfortaa, Lato, sans-serif;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+}
+
+
+.wrapper{
+position: relative;
+width: 200px;
+height: 900px;
+margin: auto 25%;
+color: #54575A;
+
+}
+
+.brand-img{
+position: absolute;
+width: 220px;
+height: 151px;
+margin: 30px auto 0 -10px;
+}
+
+.title{
+position: absolute;
+width: 600px;
+height: 40px;
+margin: 200px auto 0 auto;
+padding-bottom: 2rem;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 40px;
+}
+
+.text{
+  position: absolute;
+  width: 488px;
+  height: 72px;
+  margin: 305px auto 0 auto;
+  
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.app-store-btn{
+  position: absolute;
+  width: 138.44px;
+  height: 46.28px;
+  margin: 435px auto 0 auto;
+}
+
+.app-store-btn img{
+  width: 138.44px;
+  height: 46.28px;
+}
+
+.google-store-btn{
+position: absolute;
+width: 156.19px;
+height: 46.28px;
+margin: 435px auto 0 150px;
+}
+
+.google-store-btn img{
+width: 156.19px;
+height: 46.28px;
+}
+
+
+.mainIMG-container{
+  position: absolute;
+  height: 411.15px;
+  margin: 350px auto 0 200px;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+
+.Home{
+  position: absolute;
+  height: 444px;
+  margin: 750px auto 0 150px;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.Onboarding{
+  position: absolute;
+  height: 444px;
+  margin: 500px auto 0 -150px;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+.Signup{
+  position: absolute;
+  height: 230.5px;
+  margin: 980px auto 0 -130px;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.Checkout{
+  position: absolute;
+  height: 222px;
+  margin: 1050px auto 0 400px;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+.prof{
+  position: absolute;
+  height: 444px;
+  margin: 650px auto 0 680px;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+
+
+
+@media only screen and (max-width: 1000px)
+{
+
+body {
+  overflow-x: hidden !important;
+}
+
+.wrapper{
+position: relative;
+width: 90%;
+height: 800px;
+margin: auto 5%;
+
+}
+
+.brand-img{
+width: 140px;
+height: 90px;
+margin: 30px auto 0 0;
+}
+
+.title{
+width: 350px;
+height: 20px;
+margin: 160px auto 0 0;
+padding-bottom: 1rem;
+font-size: 24px;
+line-height: 10px;
+}
+
+.text{
+  width: 220px;
+  height: 72px;
+  margin: 220px auto 0 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+.app-store-btn{
+  width: 95px;
+  height: 36px;
+  margin: 407px auto 0 0;
+}
+
+.app-store-btn img{
+  width: 110px;
+  height: 40px;
+}
+
+.google-store-btn{
+position: absolute;
+width: 95px;
+height: 36px;
+margin: 407px auto 0 115px;
+}
+
+.google-store-btn img{
+width: 110px;
+height: 40px;
+}
+
+
+.Home{
+  height: 222px;
+  margin: 520px auto 0 90px;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.25));
+}
+
+.Onboarding{
+
+  height: 222px;
+  margin: 450px auto 0 -20px;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.25));
+}
+.Signup{
+
+  height: 106px;
+  margin: 670px auto 0 -10px;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.25));
+}
+
+.Checkout{
+
+  height: 111px;
+  margin: 670px auto 0 195px;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.25));
+}
+.prof{
+
+  height: 222px;
+  margin: 450px auto 0 195px;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.25));
+}
+
+.mainIMG-container img{
+  height: 120px;
+  margin: -60px auto 0 -40px;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.25));
+}
+
+}
+
